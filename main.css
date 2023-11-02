@@ -2825,6 +2825,7 @@ textarea:focus:-moz-placeholder {
 }
 .image-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr;
   gap: 20px;
   text-align: center;
