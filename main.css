@@ -2829,6 +2829,9 @@ textarea:focus:-moz-placeholder {
   gap: 20px;
   text-align: center;
 }
+.image-grid figure {
+  margin: 0;
+}
 .image-grid img {
   max-width: 385px;
 }
