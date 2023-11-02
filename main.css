@@ -2807,9 +2807,12 @@ textarea:focus:-moz-placeholder {
 .container_news .post_comments {
   max-width: 690px;
   margin: 0 auto;
-  padding: 20px 0 0;
+  padding: 20px 0;
 }
 
+
+
+/*? НАЧАЛО ТЕСТОВОГО ЗАДАНИЯ ?*/
 .post_title {
   font-family: 'Noto Sans Georgian', sans-serif;
   font-size: 15px;
@@ -2969,6 +2972,9 @@ textarea:focus:-moz-placeholder {
   height: 100%;
   background-color: blue;
 }
+/*? КОНЕЦ ТЕСТОВОГО ЗАДАНИЯ ?*/
+
+
 
 .post_photo_article {
   padding-bottom: 10px;
