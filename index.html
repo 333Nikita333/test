@@ -1326,7 +1326,15 @@ gtag('config', 'UA-554376-23');
                         </p>
                         <form class="post_text-salary-form">
                             <input type="text" name="имя" placeholder="Введите ваше имя" required>
-                            <input type="tel" name="телефон" placeholder="Введите ваш номер телефона" required>
+                            <div class="phone-input">
+                                <span class="input-addon">
+                                    <span>🇺🇦</span>
+                                    <span>+380</span>
+                                    <span>▼</span>
+                                </span>
+                                <input type="tel" name="телефон" placeholder="Введите ваш номер телефона" required>
+                            </div>
+                            
                             <button type="submit" onclick="submitForm()">Заказать</button>
                         </form>
                     </div>

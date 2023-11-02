@@ -2936,16 +2936,33 @@ textarea:focus:-moz-placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
+  max-width: 330px;
   margin: 0 auto;
   padding: 20px;
 }
 .post_text-salary-form input {
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
   border: 1px solid #ccc;
   background-color: #ffd4d2;
+}
+.phone-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f5cfcd;
+}
+.phone-input input {
+  border: none;
+}
+.input-addon {
+  display: flex;
+  gap: 3px;
+  padding: 0 5px;
+  font-size: 15px;
+  background-color: #f6c9c8;
 }
 .post_text-salary-form button {
   cursor: pointer;
@@ -2957,6 +2974,7 @@ textarea:focus:-moz-placeholder {
   background-color: #0499ff;
   border-radius: 8px;
   border: none;
+  box-shadow: 2px 2px 5px #888;
 }
 .post_time {
   font-size: 12px;
